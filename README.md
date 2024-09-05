@@ -69,3 +69,7 @@ To use this script with vitest you need to modify the NODE_OPTIONS environment v
  ```
 
 **Important**: `vitest` and `dd-trace` require Node.js>=18.19 or Node.js>=20.6 to work together.
+
+### Tracing cypress tests
+
+To instrument your [Cypress](https://www.cypress.io/) tests with Datadog Test Visibility, please follow the manual steps in the [docs](https://docs.datadoghq.com/tests/setup/javascript/?tab=cypress).
