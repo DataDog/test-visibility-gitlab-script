@@ -60,8 +60,8 @@ fi
 
 export DD_CIVISIBILITY_AUTO_INSTRUMENTATION_PROVIDER="gitlab"
 
-installation_script_url="https://install.datadoghq.com/scripts/install_test_visibility_v2.sh"
-installation_script_checksum="7c888969cf45b4a2340d5cf58afa2e7110a295904ca182724b88a3d19e9bc18d"
+installation_script_url="https://install.datadoghq.com/scripts/install_test_visibility_v3.sh"
+installation_script_checksum="14f41bd44247591c442aab691902d8172765548fe71b32aa579d969c5fe43c54"
 script_filepath="install_test_visibility.sh"
 
 if command -v curl >/dev/null 2>&1; then
