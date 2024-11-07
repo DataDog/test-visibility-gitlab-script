@@ -10,7 +10,7 @@ test_script:
   stage: test
   cache: []
   script:
-    - LANGUAGES="java" SERVICE="my-service" API_KEY="dummy" source <(cat script.sh)
+    - LANGUAGES="java" SERVICE="my-service" API_KEY="dummy" JAVA_INSTRUMENTED_BUILD_SYSTEM="all" source <(cat script.sh)
     - export LOG_FILE=java-output.log
     - export TRACER_INIT_LOG="CI Visibility settings"
     - java -version 2>&1 | tee $LOG_FILE
