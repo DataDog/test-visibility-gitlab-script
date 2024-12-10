@@ -92,7 +92,7 @@ while IFS='=' read -r name value; do
 done < <(DD_CIVISIBILITY_INSTRUMENTATION_LANGUAGES="${LANGUAGES}" ./install_test_visibility.sh)
 
 echo "---"
-echo "Installed Test Visibility libraries:"
+echo "Installed Test Optimization libraries:"
 
 if [ ! -z "$DD_TRACER_VERSION_DOTNET" ]; then
   echo "- __.NET:__ $DD_TRACER_VERSION_DOTNET"
